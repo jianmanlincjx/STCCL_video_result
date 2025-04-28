@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>STCCL Video Result</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f4f4f4;
+    }
+    h1 {
+      text-align: center;
+    }
+    .video-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .video-item {
+      background: white;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      width: 320px;
+    }
+    video {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .filename {
+      margin-top: 8px;
+      font-size: 14px;
+      color: #333;
+      word-break: break-word;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>STCCL Video Result</h1>
+
+  <div class="video-container">
+    <!-- 视频列表 -->
+    <div class="video-item">
+      <video controls>
+        <source src="M003_source_sad_033.mp4" type="video/mp4">
+        您的浏览器不支持HTML5视频播放。
+      </video>
+      <div class="filename">M003_source_sad_033.mp4</div>
+    </div>
+
+    <div class="video-item">
+      <video controls>
+        <source src="M012_source_angry_029.mp4" type="video/mp4">
+        您的浏览器不支持HTML5视频播放。
+      </video>
+      <div class="filename">M012_source_angry_029.mp4</div>
+    </div>
+
+    <div class="video-item">
+      <video controls>
+        <source src="M012_source_disgusted_028.mp4" type="video/mp4">
+        您的浏览器不支持HTML5视频播放。
+      </video>
+      <div class="filename">M012_source_disgusted_028.mp4</div>
+    </div>
+
+    <!-- 继续添加更多视频 -->
+    <!-- 每个视频一段 video-item -->
+  </div>
+
+</body>
+</html>
